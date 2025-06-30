@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FGA - Buy and Sell Near You</title>
     <link
-      href="https://fontAs.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="header-container">
-        <div class="logo">
-          <img src="./assets/images/logo.svg" alt="FGA Logo" />
-        </div>
-        <nav class="navbar">
-          <ul class="nav-links">
+    <header>
+      <div class="nav-left">
+        <img src="./assets/images/logo.svg" alt="FGA Logo" />
+
+        <nav>
+          <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Chat</a></li>
             <li><a href="#">My Ads</a></li>
             <li><a href="#">Profile</a></li>
           </ul>
         </nav>
-        <div class="auth-buttons">
-          <a href="#" class="login">Log in</a>
-          <a href="#" class="signup">Sign up</a>
-        </div>
+      </div>
+      <div class="auth-buttons">
+        <a href="#" class="login">Log in</a>
+        <a href="#" class="signup">Sign up</a>
       </div>
     </header>
 
@@ -61,131 +60,156 @@
     <section class="features">
       <h2>Features</h2>
       <div class="feature-grid">
-        <div class="feature-item">
-          <img
-            src="./assets/images/img1.svg"
-            alt="Local Listings"
-            style="width: 100%; border-radius: 10px"
-          />
-          <h3>Local Listings</h3>
-          <p>Discover ads near your location</p>
+        <div class="feature-item card">
+          <img src="./assets/images/img1.svg" alt="Local Listings" />
+          <div class="card-overlay">
+            <h3>Local Listings</h3>
+            <p>Discover ads near your location</p>
+          </div>
         </div>
-        <div class="feature-item">
-          <img
-            src="./assets/images/img2.svg"
-            alt="In-App Chat"
-            style="width: 100%; border-radius: 10px"
-          />
-          <h3>In-App Chat</h3>
-          <p>Talk directly with buyers & sellers</p>
+
+        <div class="feature-item card">
+          <img src="./assets/images/img2.svg" alt="In-App Chat" />
+          <div class="card-overlay">
+            <h3>In-App Chat</h3>
+            <p>Talk directly with buyers & sellers</p>
+          </div>
         </div>
-        <div class="feature-item">
-          <img
-            src="./assets/images/imgg3.svg"
-            alt="Verified Users"
-            style="width: 100%; border-radius: 10px"
-          />
-          <h3>Safe & Verified Users</h3>
-          <p>Trade with confidence</p>
+
+        <div class="feature-item card">
+          <img src="./assets/images/imgg3.svg" alt="Verified Users" />
+          <div class="card-overlay">
+            <h3>Safe & Verified Users</h3>
+            <p>Trade with confidence</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="categories">
       <h2>Popular Categories</h2>
-      <div
-        class="category-grid"
-        style="
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 1.5rem;
-        "
-      >
+      <div class="category-grid">
         <div class="category-box">
-          <img src="./assets/images/car.svg" alt="Cars" /><br />Cars & Vehicles
+          <img src="./assets/images/car.svg" alt="Cars" />Cars & Vehicles
         </div>
         <div class="category-box">
-          <img
-            src="./assets/images/iconhone.svg"
-            alt="Property"
-          /><br />Property
+          <img src="./assets/images/iconhone.svg" alt="Property" />Property
         </div>
         <div class="category-box">
-          <img src="./assets/images//bike.svg" alt="Bikes" /><br />Bikes &
-          Scooters
+          <img src="./assets/images/bike.svg" alt="Bikes" />Bikes & Scooters
         </div>
         <div class="category-box">
-          <img src="./assets/images/iconPhone.svg" alt="Mobiles" /><br />Mobiles
-          & Tabs
+          <img src="./assets/images/iconPhone.svg" alt="Mobiles" />Mobiles &
+          Tabs
         </div>
         <div class="category-box">
-          <img
-            src="./assets/images/iconservice.svg"
-            alt="Services"
-          /><br />Services
+          <img src="./assets/images/iconservice.svg" alt="Services" />Services
         </div>
         <div class="category-box">
           <img
             src="./assets/images/electric.svg"
             alt="Electronics"
-          /><br />Electronics & Appliances
+          />Electronics & Appliances
         </div>
         <div class="category-box">
-          <img src="./assets/images/home.svg" alt="Furniture" /><br />Furniture
+          <img src="./assets/images/home.svg" alt="Furniture" />Furniture
         </div>
         <div class="category-box">
-          <img src="./assets/images/music.svg" alt="Music" /><br />Music
-          Instruments
+          <img src="./assets/images/music.svg" alt="Music" />Music Instruments
         </div>
         <div class="category-box">
-          <img src="./assets/images/dress.svg" alt="Clothing" /><br />Clothing &
+          <img src="./assets/images/dress.svg" alt="Clothing" />Clothing &
           Accessories
         </div>
         <div class="category-box">
-          <img src="./assets/images/job.svg" alt="Jobs" /><br />Jobs
+          <img src="./assets/images/job.svg" alt="Jobs" />Jobs
         </div>
         <div class="category-box">
-          <img src="./assets/images/face.svg" alt="Beauty" /><br />Beauty &
-          Wellness
+          <img src="./assets/images/face.svg" alt="Beauty" />Beauty & Wellness
         </div>
         <div class="category-box">
-          <img src="./assets/images/book.svg" alt="Books" /><br />Books & Sports
+          <img src="./assets/images/book.svg" alt="Books" />Books & Sports
         </div>
         <div class="category-box">
-          <img
-            src="./assets/images/computer.svg"
-            alt="Computers"
-          /><br />Computers & Accessories
+          <img src="./assets/images/computer.svg" alt="Books" />
         </div>
+
         <div class="category-box">
-          <img src="./assets/images/other.svg" alt="Others" /><br />Others
+          <img src="./assets/images/other.svg" alt="Others" />Others
         </div>
       </div>
     </section>
 
     <section class="download-section">
-      <img src="./assets/images/iPhone 16 Pro.svg" alt="Download Mockup" />
-      <div>
-        <h2>Download now & Start your search</h2>
-        <img src="playstore.png" alt="Get it on Google Play" />
-        <img src="appstore.png" alt="Download on App Store" />
+      <div class="download-overlay">
+        <div class="download-content">
+          <h2>Download now<br />& Start your search</h2>
+          <button class="download-btn">Download Now</button>
+          <div class="store-buttons">
+            <img
+              src="./assets/images/playstore.png"
+              alt="Get it on Google Play"
+            />
+            <img
+              src="./assets/images/appstore.png"
+              alt="Download on App Store"
+            />
+          </div>
+        </div>
       </div>
     </section>
 
     <footer class="footer">
-      <div class="footer-columns">
-        <div>
-          <h3>FGA</h3>
-          <p>© 2025 FGA Ads. All rights reserved.</p>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <img src="./assets/images/logo.svg" alt="FGA Logo" />
+          <img src="./assets/images/99logo.svg" alt="99Adz Logo" />
         </div>
-        <div>
-          <p>Email: fgaadsoklah@gmail.com</p>
-          <p>Phone: 8301006394</p>
+
+        <div class="footer-links">
+          <div>
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Subscription</a></li>
+              <li><a href="#">Our Blog</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Get In Touch</h4>
+            <ul>
+              <li>
+                <img src="./assets/images/mail.svg" alt="mail" />
+                fgaadsoklah@gmail.com
+              </li>
+              <li>
+                <img src="./assets/images/phone1.svg" alt="phone" /> 8301006394
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#"
+                ><img src="./assets/images/facebook.svg" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/instagram.svg" alt="Instagram"
+              /></a>
+              <a href="#"
+                ><img src="./assets/images/twitter.svg" alt="Twitter"
+              /></a>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Follow Us</p>
-          <p>FB | Twitter | Instagram</p>
-        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 FG Ads. All rights reserved.</p>
       </div>
     </footer>
   </body>
